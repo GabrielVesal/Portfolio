@@ -40,7 +40,7 @@ body.dark-mode {
 #switch button {
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg-night) no-repeat center;
+  background:  var(--switch-bg-night) no-repeat center;
   border: 0;
   border-radius: 50%;
 
@@ -54,7 +54,7 @@ body.dark-mode {
 }
 
 .light #switch button {
-  background: white var(--switch-bg-day) no-repeat center;
+  background:  var(--switch-bg-day) no-repeat center;
   cursor: pointer;
   animation: slide-in 0.2s forwards;
 }
@@ -63,16 +63,6 @@ body.dark-mode {
   outline: 8px solid var(--highlight-color);
 }
 
-#switch span {
-  display: block;
-  width: 64px;
-  height: 24px;
-  background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 9999px;
-}
 
 @keyframes pulse {
   0% {
@@ -475,8 +465,13 @@ body.dark-mobile {
 /*mobile*/
 @media (max-width: 768px) {
   .modal-content {
+    position: absolute;
     width: 75%;
     height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
   }
 
   #j {
