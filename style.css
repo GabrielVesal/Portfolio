@@ -319,7 +319,7 @@ body.dark-mobile {
   #projetos img {
     animation: pulse 2s infinite;
     position: absolute;
-    width: 142px;
+    width: 36.5%;
     left: -3%;
     margin: 117% auto;
   }
