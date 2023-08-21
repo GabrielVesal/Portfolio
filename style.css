@@ -214,6 +214,7 @@ body.dark-mode {
 /*mobile*/
 @media (max-width: 768px) {
   body {
+    transition: none !important; 
     background: var(--bg-mobile-day) no-repeat top center;
     filter: contrast(116%) saturate(125%) brightness(95%);
     background-size: cover;
