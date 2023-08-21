@@ -105,6 +105,15 @@ body.dark-mode {
   margin: 36.5% auto;
 }
 
+#blog img {
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  position: absolute;
+  width: 19.6%;
+  left: 32.9%;
+  margin: 29.8% auto;
+}
+
 #Buyamecoffe img {
   cursor: pointer;
   animation: pulse 2s infinite;
@@ -274,6 +283,14 @@ body.dark-mobile {
     left: 24.8%;
     margin: 167.5% auto;
   }
+
+  #blog img {
+  animation: pulse 2s infinite;
+  position: absolute;
+  width: 48%;
+  left: -17%;
+  margin: 151.6% auto;
+}
 
   #Buyamecoffe img {
     animation: pulse 2s infinite;
