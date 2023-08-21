@@ -22,11 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      // Forçando a renderização:
-      body.style.display = 'none';
-      setTimeout(() => {
-        body.style.display = '';
-      }, 10);
+      // Forçando a re-renderização com transformação 3D:
+      body.style.transform = 'translateZ(0)';
     });
   });
 });
@@ -73,4 +70,3 @@ window.onclick = function (event) {
     event.target.style.display = "none";
   }
 };
- 
