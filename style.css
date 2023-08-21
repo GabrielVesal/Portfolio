@@ -17,6 +17,7 @@ body {
   width: 100%;
   margin: 0;
   overflow: hidden;
+  will-change: background;
 }
 
 body.dark-mode {
@@ -27,6 +28,7 @@ body.dark-mode {
   width: 100%;
   margin: 0;
   overflow: hidden;
+  will-change: background;
 }
 
 #switch {
