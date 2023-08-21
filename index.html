@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+    </div>
+
+    <div id="linkedin">
+      <a href="https://www.linkedin.com/in/gabrielvesal/" target="_blank">
+        <img src="assets/linkedin.png" alt="Imagem" />
+      </a>
+    </div>
+
+    <div id="instagram">
+      <a href="https://www.instagram.com/gabrielvesal/" target="_blank">
+        <img src="assets/instagram.png" alt="Imagem" />
+      </a>
+    </div>
+
+    <div id="github">
+      <a href="https://github.com/GabrielVesal" target="_blank">
+        <img src="assets/github.png" alt="Imagem" />
+      </a>
+    </div>
+
+    <div id="Buyamecoffe">
+      <a href="https://www.buymeacoffee.com/gabrielvesal1" target="_blank">
+        <img src="assets/buy_me_a_coffee.png" alt="Imagem" />
+      </a>
+    </div>
+
+    <div id="Localização">
+      <a
+        href="https://earth.google.com/web/search/Minas+Gerais/@-18.51010666,-45.36572266,349.59992559a,2255926.15344197d,35y,0.00000161h,0t,0r/data=CnUaSxJFCiMweGE2OTBhMTY1MzI0Mjg5OjB4MTEyMTcwYzkzNzlkZTdiMxlsdTklIO4xwCEA2TVrOuVFwCoMTWluYXMgR2VyYWlzGAIgASImCiQJ3JW5csEPL8ARBA2gjnK_MMAZ83m2aqSIRMAhuh6dMILXRcA"
+        target="_blank"
+      >
+        <img src="assets/localização.png" alt="Imagem" />
+      </a>
+    </div>
+
+    <div id="spotfy">
+      <a
+        href="https://open.spotify.com/playlist/5oTyjwYOo608Dt5mk0fzjE?si=3ff9037bd9334cea"
+        target="_blank"
+      >
+        <img src="assets/spotify (2).png" alt="Imagem" />
+      </a>
+    </div>
+
+    <div id="projetos">
+      <a
+        href="https://github.com/GabrielVesal?tab=repositories"
+        target="_blank"
+      >
+        <img src="assets/projetosgithub.png" alt="Imagem" />
+      </a>
+    </div>
+
+    <div id="curriculo">
+      <a
+        href="https://drive.google.com/drive/folders/1sK01Nw3CdX49GZS_eJb1a98Bso6WD_9p?usp=drive_link"
+        target="_blank"
+      >
+        <img src="assets/baixarcurriculo.png" alt="Imagem" />
+      </a>
+    </div>
+    
+<div id="snakegame">
+  <a href="#" onclick="openModal('snakegameModal')">
+      <img src="assets/snakegame.png" alt="Ícone do Jogo Snake" />
+  </a>
+</div>
+
+
+<div id="snakegameModal" class="modal">
+  <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('snakegameModal')">&times;</span>
+      
+      
+      <iframe id="j" src="https://gabrielvesal.github.io/Snakegame/" frameborder="0" width="80%" height="500px"></iframe>
+  </div>
+</div>
+
+
+    <div id="certificados">
+      <a href="#" onclick="openModal('certificadoModal')">
+          <img src="assets/certificados.png" alt="Imagem" />
+      </a>
+   </div>
+   
+   <div id="certificadoModal" class="modal">
+       <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('certificadoModal')">&times;</span>
+            <h2>Certificates</h2>
+            <div class="carousel">
+              <a href="#" class="prev" onclick="showPrev()">&#10094;</a>
+              <img class="carousel-image" src="assets/certificado1.png" alt="Certificado">
+              <a href="#" class="next" onclick="showNext()">&#10095;</a>
+           </div>
+       </div>
+   </div>
+   
+
+    <div id="bio">
+      <a href="#" onclick="openModal('bioModal')"><img src="assets/bio.png" alt="Imagem" /></a>
+        
+      </a>
+    </div>
+
+    <div id="bioModal" class="modal">
+      <div class="modal-content">
+          <span class="close-btn" onclick="closeModal('bioModal')">&times;</span>
+            <p>In 05/23, I began my journey at the Information Systems college. During the course, I am learning and developing projects in C and Python.</p>
+
+<p>Since then, I have been passionate about the field and have been avidly studying the world of the web, aiming to become a FullStack developer.</p>
+
+<p>Currently, my studies involve combining the knowledge acquired in college, the RocketSeat Explorer track, and the creation of personal projects.</p>
+          </p>
+        
+      </div>
+  </div>
+
+<div id="tech">
+  <a href="#" onclick="openModal('techModal')"><img src="assets/tech.png" alt="Tecnologias" /></a>
+</div>
+<div id="techModal" class="modal">
+  <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('techModal')">&times;</span>
+    
+    <h1>Tech stack</h1>
+    <div class="image-grid">
+      <img class="a" src="assets/c.png" alt="">
+      <img class="a" src="assets/python.png" alt="">
+      <img class="a" src="assets/html.png" alt="">
+      <img class="a" src="assets/css.png" alt="">
+      <img class="a" src="assets/logo-javascript.svg" alt="">
+      <img class="a" src="assets/sqlite.png" alt="">
+      <img class="a" src="assets/react.png" alt="">
+      <img class="a" src="assets/nodejs-icon.svg" alt="">
+      <img class="a" src="assets/figma.png" alt="">
+    </div>
+
+  </div>
+</div>
+
+
+<div id="produtividade">
+  <a href="#" onclick="openModal('produtividadeModal')"><img src="assets/produtividade.png" alt="Produtividade" /></a>
+</div>
+<div id="produtividadeModal" class="modal">
+  <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('produtividadeModal')">&times;</span>
+
+      <h1>Productivy</h1>
+      <div class="image-grid">
+      <img  class="a" src="assets/notion.png" alt="">
+      </div>
+      <h3><a href="https://impossible-unicorn-1ef.notion.site/Developer-s-Brain-0a69d5ece78a453fbd1cc6a00c537f52?pvs=4" target="_blank">Free template,</a> with tips on books, movies and series included.</h3>
+  </div>
+</div>
+
+<div id="experiencias">
+  <a href="#" onclick="openModal('experienciasModal')"><img src="assets/experiencias.png" alt="Experiências" /></a>
+</div>
+<div id="experienciasModal" class="modal">
+  <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('experienciasModal')">&times;</span>
+
+      <h1>Experiences</h1>
+      <h2>Creation of personal projects, projects of courses and faculty.</h2>
+      <h2>Personal projects</h2>
+      <p>My portfolio <a href="https://gabrielvesal.github.io/Portfolio/" target="_blank">click here</a> to visit.</p>
+      <h2>Courses and Faculty</h2>
+      <p>Simple projects <a href="https://github.com/GabrielVesal?tab=repositories" target="_blank">click here</a> to visit.</p>
+
+      
+
+
+      
+  </div>
+</div>
+
+<div id="cursos">
+  <a href="#" onclick="openModal('cursosModal')"><img src="assets/cursos.png" alt="Cursos" /></a>
+</div>
+<div id="cursosModal" class="modal">
+  <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('cursosModal')">&times;</span>
+
+      <h1>Courses</h1>
+      <h2>Studying a bachelor's degree in information systems at the federal <a href="https://www.ifnmg.edu.br/" target="_blank">Institute of science and technology in the north of minas Gerais.</a></h2>
+      <h2><a href="https://www.rocketseat.com.br/" target="_blank">RocketSeat</a> Explorer and other short courses.</h2>
+  </div>
+</div>
+
+<div id="copyrightLink">
+  <a href="#" onclick="openModal('copyrightModal')">© 2023 Gabriel Alves. All rights reserved</a>
+</div>
+
+
+<div id="copyrightModal" class="modal">
+  <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('copyrightModal')">&times;</span>
+      <h2>Copyright</h2>
+      
+      <p>
+      <strong>Use of Content</strong><br>
+      It is expressly forbidden to copy, reproduce, redistribute, publish or in any way use the contents of this portfolio without the prior written authorization of Gabriel Alves. The content is provided for your personal, non-commercial viewing only.
+      </p>
+  </div>
+</div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
