@@ -42,7 +42,7 @@ body.dark-mode {
 #switch button {
   width: 32px;
   height: 32px;
-  background:  var(--switch-bg-night) no-repeat center;
+  background:  var(--switch-bg-day) no-repeat center;
   border: 0;
   border-radius: 50%;
 
