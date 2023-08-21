@@ -1,26 +1,36 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const body = document.body;
-  const switchBtn = document.querySelector("#switch button");
+  const corpo = document.body;
+  const botaoAlternar = document.querySelector("#switch button");
 
-  switchBtn.addEventListener("click", function () {
+  // Função para alternar o tema com base na largura da janela
+  function alternarTema() {
     requestAnimationFrame(() => {
       if (window.innerWidth <= 768) {
-        if (body.classList.contains("dark-mobile")) {
-          body.classList.remove("dark-mobile");
-          body.classList.add("light");
+        if (corpo.classList.contains("dark-mobile")) {
+          corpo.classList.remove("dark-mobile");
+          corpo.classList.add("light");
         } else {
-          body.classList.remove("light");
-          body.classList.add("dark-mobile");
+          corpo.classList.remove("light");
+          corpo.classList.add("dark-mobile");
         }
       } else {
-        if (body.classList.contains("dark-mode")) {
-          body.classList.remove("dark-mode");
-          body.classList.add("light");
+        if (corpo.classList.contains("dark-mode")) {
+          corpo.classList.remove("dark-mode");
+          corpo.classList.add("light");
         } else {
-          body.classList.remove("light");
-          body.classList.add("dark-mode");
+          corpo.classList.remove("light");
+          corpo.classList.add("dark-mode");
         }
       }
+    });
+  }
+
+  // Anexar o listener de evento ao botão
+  botaoAlternar.addEventListener("click", alternarTema);
+
+  // Chamar a função para garantir o estado correto quando a página é carregada
+  alternarTema();
+});
 
       // Forçando a renderização:
       body.style.display = 'none';
