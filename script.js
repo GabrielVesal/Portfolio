@@ -22,8 +22,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      // Forçando a re-renderização com transformação 3D:
-      body.style.transform = 'translateZ(0)';
+      // Forçando a renderização:
+      body.style.display = 'none';
+      setTimeout(() => {
+        body.style.display = '';
+      }, 10);
     });
   });
 });
