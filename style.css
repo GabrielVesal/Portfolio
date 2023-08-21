@@ -390,7 +390,7 @@ body.dark-mobile {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   
-  z-index: 1000;
+  z-index: 995;
 
   display: flex;
   flex-direction: column;
