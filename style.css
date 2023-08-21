@@ -263,15 +263,15 @@ body.dark-mobile {
   #linkedin img {
     animation: pulse 2s infinite;
     position: absolute;
-    width: 22px;
+    width: 5.7%;
     left: 11.1%;
-    margin: 168% auto;
+    margin: 167.6% auto;
   }
 
   #instagram img {
     animation: pulse 2s infinite;
     position: absolute;
-    width: 22.2px;
+    width: 5.7%;
     left: 18.3%;
     margin: 167.5% auto;
   }
@@ -279,7 +279,7 @@ body.dark-mobile {
   #github img {
     animation: pulse 2s infinite;
     position: absolute;
-    width: 26px;
+    width: 6.7%;
     left: 24.8%;
     margin: 167.5% auto;
   }
