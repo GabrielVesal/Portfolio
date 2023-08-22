@@ -492,7 +492,7 @@ body.dark-mobile {
   display: none;
   position: fixed;
   width: 75%;
-  min-height: 1000px;
+  min-height: 900px;
   min-width: 420px;
   background-color: rgba(0, 0, 0, 0.5);
 }
