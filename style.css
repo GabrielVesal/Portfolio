@@ -499,7 +499,7 @@ body.dark-mobile {
   position: relative;
   width: 75%;
   min-height: 866px;
-  min-width: 396px;
+  min-width: 400px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-content {
