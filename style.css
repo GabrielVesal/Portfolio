@@ -394,7 +394,7 @@ body.dark-mobile {
   position: fixed;
   width: 60%;
   min-width: 1528px;
-  min-height: 1080px;
+  min-height: 800px;
   background-color: rgba(0, 0, 0, 0.5);
 
   z-index: 999;
