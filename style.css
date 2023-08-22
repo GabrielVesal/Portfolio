@@ -495,14 +495,16 @@ body.dark-mobile {
 /*mobile*/
 @media (max-width: 768px) {
   .modal-content {
-    position: absolute;
-    width: 68%;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-  }
+  position: fixed;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 10;
+  width: 75%;
+  max-width: 90%;
+  padding: 1.2rem;
+}
 
   #j {
     width: 300px;
