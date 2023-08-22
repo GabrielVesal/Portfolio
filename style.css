@@ -498,7 +498,7 @@ body.dark-mobile {
   display: none;
   position: fixed;
   width: 75%;
-  min-height: 866px;
+  min-height: 828px;
   min-width: 420px;
   background-color: rgba(0, 0, 0, 0.5);
 }
