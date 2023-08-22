@@ -498,8 +498,8 @@ body.dark-mobile {
   display: none;
   position: relative;
   width: 75%;
-  min-height: 1792px;
-  min-width: 828px;
+  min-height: 866px;
+  min-width: 396px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-content {
