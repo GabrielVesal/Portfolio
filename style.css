@@ -496,7 +496,7 @@ body.dark-mobile {
 @media (max-width: 768px) {
   .modal {
   display: none;
-  position: relative;
+  position: fixed;
   width: 75%;
   min-height: 866px;
   min-width: 420px;
