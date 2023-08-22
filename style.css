@@ -390,7 +390,7 @@ body.dark-mobile {
 }
 
 .modal {
-  display: flex;          /* Habilita Flexbox */
+  display: none;          /* Habilita Flexbox */
   justify-content: center;/* Centraliza horizontalmente */
   align-items: center;    /* Centraliza verticalmente */
   position: fixed;        /* Fica por cima de outros elementos */
