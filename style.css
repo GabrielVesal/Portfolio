@@ -239,6 +239,7 @@ body.dark-mode {
 }
 
 body.dark-mobile {
+  transition: 0.2s;
   background: var(--bg-mobile-night) no-repeat top center;
   background-size: cover;
   position: relative;
