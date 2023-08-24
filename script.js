@@ -4,22 +4,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
   switchBtn.addEventListener("click", function () {
     requestAnimationFrame(() => {
-      if (window.innerWidth <= 768) {
-        if (body.classList.contains("dark-mobile")) {
-          body.classList.remove("dark-mobile");
-          body.classList.add("light");
-        } else {
-          body.classList.remove("light");
-          body.classList.add("dark-mobile");
-        }
-      } else {
-        if (body.classList.contains("dark-mode")) {
-          body.classList.remove("dark-mode");
-          body.classList.add("light");
-        } else {
-          body.classList.remove("light");
-          body.classList.add("dark-mode");
-        }
+      if (window.innerWidth <= 768) { // Para dispositivos móveis
+          if (body.classList.contains("dark-mobile")) {
+              body.classList.remove("dark-mobile");
+              body.classList.add("light");
+              body.style.backgroundImage = 'url(assets/bg-mobiledia.svg)';
+          } else {
+              body.classList.remove("light");
+              body.classList.add("dark-mobile");
+              body.style.backgroundImage = 'url(assets/bg-mobile-night.svg)';
+          }
+      } else { // Para desktops
+          if (body.classList.contains("dark-mode")) {
+              body.classList.remove("dark-mode");
+              body.classList.add("light");
+              body.style.backgroundImage = 'url(assets/pcdia.svg)';
+          } else {
+              body.classList.remove("light");
+              body.classList.add("dark-mode");
+              body.style.backgroundImage = 'url(./assets/pcnoite.svg)';
+          }
       }
     });
   });
