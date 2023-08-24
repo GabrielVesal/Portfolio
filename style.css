@@ -113,7 +113,7 @@ body.dark-mode {
   margin: 28.7% auto;
 }
 
-#Localização img {
+#Localizacao img {
   cursor: pointer;
   animation: pulse 2s infinite;
   position: absolute;
@@ -419,7 +419,7 @@ body.dark-mode {
     margin: 149.2% auto;
   }
 
-  #Localização img {
+  #Localizacao img {
     animation: pulse 2s infinite;
     position: absolute;
     width: 23%;
