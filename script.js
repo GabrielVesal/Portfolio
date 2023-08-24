@@ -22,11 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      // Forçando a renderização:
-      body.style.display = 'none';
-      setTimeout(() => {
-        body.style.display = '';
-      }, 10);
+      
     });
   });
 });
