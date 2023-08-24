@@ -21,6 +21,11 @@ document.addEventListener("DOMContentLoaded", function () {
           body.classList.add("dark-mode");
         }
       }
+       // Forçando a renderização:
+      body.style.display = 'none';
+      setTimeout(() => {
+        body.style.display = '';
+      }, 10);
     });
   });
 });
