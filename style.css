@@ -1,24 +1,10 @@
 :root {
-  --bg-color-day: url(assets/pcdia.svg);
-  --bg-color-night: url(./assets/pcnoite.svg);
   --switch-bg-day: url(./assets/sun.svg);
   --switch-bg-night: url(./assets/night.svg);
   filter: contrast(116%) saturate(125%) brightness(95%);
 }
 
 body {
-  background: var(--bg-color-day) no-repeat top center;
-  background-size: cover;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  will-change: background;
-}
-
-body.dark-mode {
-  background: var(--bg-color-night) no-repeat top center;
   background-size: cover;
   position: relative;
   height: 100%;
@@ -42,7 +28,6 @@ body.dark-mode {
   background: var(--switch-bg-night) no-repeat center;
   border: 0;
   border-radius: 50%;
-
   position: absolute;
   top: 50%;
   left: 0;
@@ -313,26 +298,12 @@ body.dark-mode {
 }
 /*mobile*/
 @media (max-width: 768px) {
-  :root {
-    --bg-mobile-day: url(assets/bg-mobiledia.svg);
-    --bg-mobile-night: url(assets/bg-mobile-night.svg);
+   :root {
     --switch-bg-day: url(./assets/sun.svg);
     --switch-bg-night: url(./assets/night.svg);
     filter: contrast(116%) saturate(125%) brightness(95%);
   }
   body {
-    background: var(--bg-mobile-day) no-repeat top center;
-    background-size: cover;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    will-change: background;
-  }
-
-  body.dark-mobile {
-    background: var(--bg-mobile-night) no-repeat top center;
     background-size: cover;
     position: relative;
     height: 100%;
@@ -355,7 +326,6 @@ body.dark-mode {
     background: var(--switch-bg-night) no-repeat center;
     border: 0;
     border-radius: 50%;
-
     position: absolute;
     top: 50%;
     left: 0;
