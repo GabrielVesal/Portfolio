@@ -321,7 +321,6 @@ body.dark-mode {
     filter: contrast(116%) saturate(125%) brightness(95%);
   }
   body {
-    transition: 0s;
     background: var(--bg-mobile-day) no-repeat top center;
     background-size: cover;
     position: relative;
@@ -333,7 +332,6 @@ body.dark-mode {
   }
 
   body.dark-mobile {
-    transition: 0s;
     background: var(--bg-mobile-night) no-repeat top center;
     background-size: cover;
     position: relative;
