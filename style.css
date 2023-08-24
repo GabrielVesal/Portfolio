@@ -252,19 +252,7 @@ body.dark-mobile {
 
 /*mobile*/
 @media (max-width: 768px) {
-  @keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
   #switch {
-    animation: pulse 2s infinite;
     position: absolute;
     left: 81%;
     margin: 105% auto;
