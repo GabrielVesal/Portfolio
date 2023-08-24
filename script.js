@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
           body.classList.add("dark-mode");
         }
       }
-      body.style.transform = 'translateZ(0)';
+body.style.transform = 'translateZ(0)';
     });
   });
 });
