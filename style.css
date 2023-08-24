@@ -265,12 +265,10 @@ body.dark-mobile {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
-    cursor: pointer;
   }
 
   .light #switch button {
   background:  var(--switch-bg-day) no-repeat center;
-  cursor: pointer;
   }
 }
 
