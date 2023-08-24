@@ -21,7 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
           body.classList.add("dark-mode");
         }
       }
-window.getComputedStyle(body).getPropertyValue('opacity');
+body.style.visibility = 'hidden';
+setTimeout(() => {
+    body.style.visibility = 'visible';
+}, 10);
     });
   });
 });
