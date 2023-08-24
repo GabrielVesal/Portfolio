@@ -59,7 +59,9 @@ body.dark-mode {
   cursor: pointer;
 }
 
-
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
 
 @keyframes pulse {
   0% {
