@@ -253,7 +253,7 @@ body.dark-mobile {
 /*mobile*/
 @media (max-width: 768px) {
   #switch {
-    animation: pulse 2s infinite;
+    animation: pulse 3s infinite;
     position: absolute;
     left: 81%;
     margin: 105% auto;
