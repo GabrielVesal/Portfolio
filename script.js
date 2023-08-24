@@ -75,33 +75,3 @@ window.onclick = function (event) {
 };
 
 
-const selectors = [
-    '#linkedin img',
-    '#instagram img',
-    '#github img',
-    '#blog img',
-    '#Buyamecoffe img',
-    '#Localização img',
-    '#spotfy img',
-    '#projetos img',
-    '#curriculo img',
-    '#snakegame img',
-    '#certificados img',
-    '#bio img',
-    '#tech img',
-    '#produtividade img',
-    '#experiencias img',
-    '#cursos img'
-];
-
-function resetAnimation(element) {
-    element.classList.remove('animationClass');
-    setTimeout(function() {
-        element.classList.add('animationClass');
-    }, 10);
-}
-
-selectors.forEach(selector => {
-    const elements = document.querySelectorAll(selector);
-    elements.forEach(resetAnimation);
-});
