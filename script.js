@@ -12,6 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
           body.classList.remove("light");
           body.classList.add("dark-mobile");
         }
+        
+        // Forçando a renderização apenas para mobile :
+        body.style.display = 'none';
+        setTimeout(() => {
+        body.style.display = '';
+        }, 0);
+        
       } else {
         if (body.classList.contains("dark-mode")) {
           body.classList.remove("dark-mode");
@@ -21,11 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
           body.classList.add("dark-mode");
         }
       }
-       // Forçando a renderização:
-      body.style.display = 'none';
-      setTimeout(() => {
-        body.style.display = '';
-      }, 0);
     });
   });
 });
