@@ -3,7 +3,7 @@
   --bg-color-night: url(./assets/pcnoite.svg);
   --switch-bg-day: url(./assets/sun.svg);
   --switch-bg-night: url(./assets/night.svg);
-  filter: contrast(116%) saturate(125%) brightness(95%);
+  filter: contrast(120%) saturate(130%) brightness(95%);
 }
 
 body {
