@@ -468,7 +468,29 @@ body.dark-mobile {
   }
 }
 
+/*mobile*/
+@media (max-width: 768px) {
+  .modal {
+   display: none;
+   position: fixed;
+   width: 75%;
+   min-height: 900px;
+   min-width: 420px;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+ .modal-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 75%;
+ }
 
+  #j {
+    width: 300px;
+    height: 480px;
+  }
+}
 
 /*mobile*/
 @media (max-width: 768px) {
@@ -516,29 +538,7 @@ body.dark-mobile {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/*mobile*/
-@media (max-width: 768px) {
-  .modal {
-  display: none;
-  position: fixed;
-  width: 75%;
-  min-height: 900px;
-  min-width: 420px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 75%;
-}
 
-  #j {
-    width: 300px;
-    height: 480px;
-  }
-}
 
 /*copyright*/
 #copyrightLink a {
