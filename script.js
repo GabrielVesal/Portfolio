@@ -21,10 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
           body.classList.add("dark-mode");
         }
       }
-body.style.visibility = 'hidden';
-setTimeout(() => {
-    body.style.visibility = 'visible';
-}, 10);
     });
   });
 });
