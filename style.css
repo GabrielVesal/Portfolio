@@ -20,6 +20,7 @@ body {
 
 body.dark-mode {
   background: var(--bg-color-night) no-repeat top center;
+  filter: contrast(120%) saturate(130%) brightness(95%);
   background-size: cover;
   position: relative;
   height: 100%;
