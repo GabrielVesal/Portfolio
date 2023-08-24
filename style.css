@@ -252,6 +252,26 @@ body.dark-mobile {
     left: 81%;
     margin: 105% auto;
   }
+  
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: var(--switch-bg-night) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.light #switch button {
+  background:  var(--switch-bg-day) no-repeat center;
+  cursor: pointer;
+}
 }
 
 
