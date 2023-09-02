@@ -208,6 +208,7 @@ body.dark-mode {
   width: 11%;
   left: 46.7%;
   margin: 26.5% auto;
+  z-index: 2;
 }
 
 #cursos img {
@@ -510,6 +511,7 @@ body.dark-mode {
     width: 27%;
     left: 14.5%;
     margin: 143% auto;
+    z-index: 2;
   }
 
   #cursos img {
