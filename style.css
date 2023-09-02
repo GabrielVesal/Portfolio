@@ -76,7 +76,7 @@ body.dark-mode {
   width: 19.6%;
   left: 32.9%;
   margin: 29.8% auto;
-  pointer-events: none;
+  z-index: 1;
 }
 
 #linkedin img {
