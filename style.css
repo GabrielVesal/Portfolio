@@ -69,15 +69,6 @@ body.dark-mode {
     transform: scale(1);
   }
 }
-#blog img {
-  cursor: pointer;
-  animation: pulse 2s infinite;
-  position: absolute;
-  width: 19.6%;
-  left: 32.9%;
-  margin: 29.8% auto;
-  z-index: 1;
-}
 
 #linkedin img {
   cursor: pointer;
@@ -109,7 +100,15 @@ body.dark-mode {
   z-index: 2;
 }
 
-
+#blog img {
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  position: absolute;
+  width: 19.6%;
+  left: 32.9%;
+  margin: 29.8% auto;
+  z-index: 1;
+}
 
 #Buyamecoffe img {
   cursor: pointer;
@@ -394,6 +393,7 @@ body.dark-mode {
     width: 5.7%;
     left: 11.1%;
     margin: 167.6% auto;
+    z-index: 2;
   }
 
   #instagram img {
@@ -402,6 +402,7 @@ body.dark-mode {
     width: 5.7%;
     left: 18.3%;
     margin: 167.5% auto;
+    z-index: 2;
   }
 
   #github img {
@@ -410,6 +411,7 @@ body.dark-mode {
     width: 6.7%;
     left: 24.8%;
     margin: 167.5% auto;
+    z-index: 2;
   }
 
   #blog img {
@@ -418,6 +420,7 @@ body.dark-mode {
     width: 48%;
     left: -17%;
     margin: 151.6% auto;
+    z-index: 1;
   }
 
   #Buyamecoffe img {
@@ -498,6 +501,7 @@ body.dark-mode {
     width: 28%;
     left: -2%;
     margin: 141.5% auto;
+    z-index: 2;
   }
 
   #experiencias img {
@@ -514,6 +518,7 @@ body.dark-mode {
     width: 36%;
     left: 0%;
     margin: 58.1% auto;
+    z-index: 2;
   }
 
   .modal {
