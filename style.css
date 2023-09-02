@@ -86,6 +86,7 @@ body.dark-mode {
   width: 2.3%;
   left: 44.4%;
   margin: 36.5% auto;
+  z-index: 2;
 }
 
 #instagram img {
