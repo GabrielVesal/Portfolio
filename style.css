@@ -96,6 +96,7 @@ body.dark-mode {
   width: 2.3%;
   left: 47.4%;
   margin: 36.5% auto;
+  z-index: 2;
 }
 
 #github img {
@@ -105,6 +106,7 @@ body.dark-mode {
   width: 2.4%;
   left: 50.2%;
   margin: 36.5% auto;
+  z-index: 2;
 }
 
 
