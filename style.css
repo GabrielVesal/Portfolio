@@ -199,6 +199,7 @@ body.dark-mode {
   width: 11%;
   left: 38.7%;
   margin: 26% auto;
+  z-index: 2;
 }
 
 #experiencias img {
@@ -217,6 +218,7 @@ body.dark-mode {
   width: 15%;
   left: 24.7%;
   margin: 28.4% auto;
+  z-index: 2;
 }
 
 .modal {
