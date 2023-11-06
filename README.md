@@ -16,3 +16,14 @@ Para aprender a usar o Adobe Effects, fiz um vídeo de apresentação para meu p
     <img alt="youtube" src="https://github.com/GabrielVesal/Portfolio/blob/1d9458dd65757fd132fac71642f5ec39a035607b/youtube.png">
   </a>
 </p>
+
+<div>
+    <img height='50em' src="https://cdn.worldvectorlogo.com/logos/html-1.svg"svg">
+    <img height='50em' src="https://cdn.worldvectorlogo.com/logos/css-3.svg">
+    <img height='50em' src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg">                                                               
+    <img height='50em' src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg">  
+    <img height='50em' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png">
+    <img height='50em' src="https://cdn.worldvectorlogo.com/logos/after-effects-1.svg"svg">
+    
+
+
