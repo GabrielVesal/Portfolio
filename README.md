@@ -5,6 +5,6 @@ Este projeto é um portfólio criativo, 100% self-made, que coloquei em prática
 
 O projeto sofreu pequenas alterações no dia 06/11/2023 e não será mais alterado por enquanto ja que com os conhecimentos que adquiri teria que fazer grandes modificações e reeorganizar e como tenho novas ideias este projeto ficara pausado. Estarei desenvolvendo outros projetos e meu portfólio principal será criado em breve, de forma diferente e responsiva, utilizando os conhecimentos adquiridos nos meus estudos constantes.
 
-LENBRANDO: AS INFORMAÇÕES QUE ESTÃO NO PORTFOLIO COMO "TECH STACK, COUSERS, EXPERIENCE, CERTIFICATES, BIO" PODERAM ESTAR DESATUALIZADAS, PARA INFORMAÇÕES VERIDICAS COMO AS QUE MENCIONEI NAS ASPAS ENTRE NO MEU LINKEDIN:https://www.linkedin.com/in/gabrielvesal/
+LENBRANDO: AS INFORMAÇÕES QUE ESTÃO NO PORTFOLIO COMO "TECH STACK","COUSERS","EXPERIENCE", "CERTIFICATES","BIO", PODEM ESTAR DESATUALIZADAS. PARA INFORMAÇÕES VERIDICAS DAS QUAIS EU MENCIONEI ,ACESSE O MEU LINKEDIN:https://www.linkedin.com/in/gabrielvesal/
 ###
 LINK DO PROJETO:https://portfoliogabrielvesal.vercel.app/
