@@ -8,3 +8,5 @@ O projeto sofreu pequenas alterações pela última vez no dia 06/11/2023 e não
 LENBRANDO: AS INFORMAÇÕES QUE ESTÃO NO PORTFOLIO COMO "TECH STACK","COUSERS","EXPERIENCE", "CERTIFICATES","BIO", PODEM ESTAR DESATUALIZADAS. PARA INFORMAÇÕES VERIDICAS DAS QUAIS EU MENCIONEI ,ACESSE O MEU LINKEDIN:https://www.linkedin.com/in/gabrielvesal/
 ###
 LINK DO PROJETO:https://portfoliogabrielvesal.vercel.app/
+
+Para aprender a usar o Adobe Effects, fiz um vídeo de apresentação para meu portfólio, o link  está logo abaixo. Lembre-se de que as informações do portfólio estão desatualizadas.
