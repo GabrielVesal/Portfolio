@@ -9,4 +9,10 @@ LENBRANDO: AS INFORMAÇÕES QUE ESTÃO NO PORTFOLIO COMO "TECH STACK","COUSERS",
 ###
 LINK DO PROJETO:https://portfoliogabrielvesal.vercel.app/
 
-Para aprender a usar o Adobe Effects, fiz um vídeo de apresentação para meu portfólio, o link  está logo abaixo. Lembre-se de que as informações do portfólio estão desatualizadas.
+Para aprender a usar o Adobe Effects, fiz um vídeo de apresentação para meu portfólio, o link  está logo abaixo. Lembre-se de que as informações do portfólio estão desatualizadas.👇
+
+<p align="center">
+  <a href="https://youtu.be/X9w1v1Gy2ns">
+    <img alt="youtube" src="https://github.com/GabrielVesal/Portfolio/blob/1d9458dd65757fd132fac71642f5ec39a035607b/youtube.png">
+  </a>
+</p>
