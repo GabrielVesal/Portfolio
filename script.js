@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
           body.classList.add("dark-mobile");
         }
         
-        // Forçando a renderização apenas para mobile :
+        
         body.style.display = 'none';
         setTimeout(() => {
         body.style.display = '';
