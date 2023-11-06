@@ -22,9 +22,9 @@ Techs usadas:
     <img height='50em' src="https://cdn.worldvectorlogo.com/logos/html-1.svg"svg">
     <img height='50em' src="https://cdn.worldvectorlogo.com/logos/css-3.svg">
     <img height='50em' src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg">                                                               
-    <img height='50em' src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg">  
     <img height='50em' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png">
     <img height='50em' src="https://cdn.worldvectorlogo.com/logos/after-effects-1.svg"svg">
+        <img height='50em' src="https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg">  
     
 
 
