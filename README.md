@@ -17,7 +17,7 @@ Para aprender a usar o Adobe Effects, fiz um vídeo de apresentação para meu p
   </a>
 </p>
 
-Techs usadas:
+
 <div>
     <img height='50em' src="https://cdn.worldvectorlogo.com/logos/html-1.svg"svg">
     <img height='50em' src="https://cdn.worldvectorlogo.com/logos/css-3.svg">
